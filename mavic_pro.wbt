@@ -1,0 +1,1713 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/SandyGround.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/manhole/protos/SquareManhole.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/dji/mavic/protos/Mavic2Pro.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/UBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/CyberboticsTower.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Forest.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/LargeResidentialTower.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/ResidentialBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/vehicles/protos/tesla/TeslaModel3.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Oak.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/BigSassafras.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/stairs/protos/StraightStairs.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/VarnishedPine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Pine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/street_furniture/protos/Bench.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/street_furniture/protos/StoneBench.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/ModernHouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/HollowBuilding.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/Warehouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Sassafras.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/Auditorium.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/buildings/protos/TheThreeTowers.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/traffic/protos/StreetLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/street_furniture/protos/SimpleBench.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/street_furniture/protos/PublicBin.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Asphalt.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/road/protos/Roundabout.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/road/protos/CurvedRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/road/protos/StraightRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/PalmTree.proto"
+
+WorldInfo {
+  info [
+    "This demonstration shows a DJI Mavic 2 PRO flying over a rural area."
+    "After the drone has taken off, you can control it with the keyboard of your computer."
+  ]
+  title "DJI Mavic 2 PRO demo"
+  basicTimeStep 8
+  defaultDamping Damping {
+    linear 0.5
+    angular 0.5
+  }
+}
+Viewpoint {
+  orientation -0.6177577134582173 0.030314948208303067 0.7857839470096111 3.064508353289985
+  position -10.736080986897132 -12.748945213934666 81.04251641853988
+  near 0.2
+  follow "Mavic 2 PRO"
+  followSmoothness 0.2
+}
+Group {
+  children [
+    PalmTree {
+      translation -9.34 -68.98 0
+    }
+    PalmTree {
+      translation -32.98 -68.98 0
+      name "palm tree(1)"
+    }
+    PalmTree {
+      translation -64.74 -68.98 0
+      name "palm tree(2)"
+    }
+    PalmTree {
+      translation -94.37 -68.98 0
+      name "palm tree(3)"
+    }
+    PalmTree {
+      translation -123.12 -68.98 0
+      rotation 1 0 0 4.692820414042842e-06
+      name "palm tree(4)"
+    }
+    BigSassafras {
+      translation -41.37 -79.26 0
+      name "sassafras tree(1)"
+    }
+    BigSassafras {
+      translation -26.09 -79.26 0
+      name "sassafras tree(44)"
+    }
+    BigSassafras {
+      translation -12.6 -79.26 0
+      name "sassafras tree(45)"
+    }
+  ]
+}
+StreetLight {
+  translation -5.12 -79.88 0
+  rotation 0 0 1 1.5708
+  name "street light(1)"
+}
+StreetLight {
+  translation -5.12001 -57.17 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(11)"
+}
+StreetLight {
+  translation -14.81 -57.17 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(12)"
+}
+StreetLight {
+  translation -40.74 -57.17 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(14)"
+}
+StreetLight {
+  translation -52.83 -57.17 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(15)"
+}
+StreetLight {
+  translation -64.55 -57.17 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(16)"
+}
+StreetLight {
+  translation -78.59 -57.17 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(17)"
+}
+StreetLight {
+  translation -99.21 -57.17 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(18)"
+}
+StreetLight {
+  translation -117.85 -57.17 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(19)"
+}
+StreetLight {
+  translation -133.26 -57.17 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(23)"
+}
+StreetLight {
+  translation -27.71 -57.17 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(13)"
+}
+StreetLight {
+  translation -21.63 -79.88 0
+  rotation 0 0 1 1.5708
+  name "street light(2)"
+}
+StreetLight {
+  translation -35.16 -79.88 0
+  rotation 0 0 1 1.5708
+  name "street light(3)"
+}
+StreetLight {
+  translation -47.3 -79.88 0
+  rotation 0 0 1 1.5708
+  name "street light(4)"
+}
+StreetLight {
+  translation -58.31 -79.88 0
+  rotation 0 0 1 1.5708
+  name "street light(5)"
+}
+StreetLight {
+  translation -68.33 -79.88 0
+  rotation 0 0 1 1.5708
+  name "street light(6)"
+}
+StreetLight {
+  translation -85.4 -79.88 0
+  rotation 0 0 1 1.5708
+  name "street light(7)"
+}
+StreetLight {
+  translation -110.07 -79.88 0
+  rotation 0 0 1 1.5708
+  name "street light(8)"
+}
+StreetLight {
+  translation -124.26 -79.88 0
+  rotation 0 0 1 1.5708
+  name "street light(9)"
+}
+StreetLight {
+  translation -139.03 -79.88 0
+  rotation 0 0 1 1.5708
+  name "street light(10)"
+}
+Group {
+  children [
+    CurvedRoadSegment {
+      translation 57.24 -51.27 0.1
+      rotation 0 0 1 1.5708
+      width 16
+      roadBorderHeight 0.16
+      roadBorderWidth [
+        2
+      ]
+      locked FALSE
+    }
+    CurvedRoadSegment {
+      translation 90.0176 -50.2848 0.1
+      rotation 0 0 -1 2.61799
+      name "road(1)"
+      width 8
+      roadBorderHeight 0.16
+      roadBorderWidth [
+        2
+      ]
+      curvatureRadius 6
+      subdivision 14
+      locked FALSE
+    }
+    Roundabout {
+      translation 75.7737 -36.7922 0.03
+      rotation 0 0 1 2.09439
+      borderWidth 1.8
+      outerRadius 11
+      centerTextureScale 6 4
+      roadNumber 3
+      startRoadsLength [
+        8
+      ]
+      startRoadsWidth 8
+      locked FALSE
+    }
+    TeslaModel3 {
+      translation 138.95 -164.48 18.87
+      rotation 0 0 1 1.5708
+      name "vehicle(33)"
+    }
+    TeslaModel3 {
+      translation 139.05 -154.65 18.79
+      rotation 0 0 1 1.5708
+      name "vehicle(18)"
+    }
+    TeslaModel3 {
+      translation 133.67 -154.65 18.78
+      rotation 0 0 1 1.5708
+      name "vehicle(70)"
+    }
+    TeslaModel3 {
+      translation 127.51 -154.65 18.79
+      rotation 0 0 1 1.5708
+      name "vehicle(71)"
+    }
+    TeslaModel3 {
+      translation 122.01 -154.65 18.81
+      rotation 0 0 1 1.5708
+      name "vehicle(72)"
+    }
+    TeslaModel3 {
+      translation 116.9 -154.65 18.78
+      rotation 0 0 1 1.5708
+      name "vehicle(73)"
+    }
+    TeslaModel3 {
+      translation 111 -154.65 18.78
+      rotation 0 0 1 1.5708
+      name "vehicle(74)"
+    }
+    TeslaModel3 {
+      translation 105.64 -154.65 18.77
+      rotation 0 0 1 1.5708
+      name "vehicle(75)"
+    }
+    TeslaModel3 {
+      translation 100.13 -154.65 18.75
+      rotation 0 0 1 1.5708
+      name "vehicle(76)"
+    }
+    TeslaModel3 {
+      translation 94.73 -154.65 18.77
+      rotation 0 0 1 1.5708
+      name "vehicle(77)"
+    }
+    TeslaModel3 {
+      translation 88.5 -154.65 18.78
+      rotation 0 0 1 1.5708
+      name "vehicle(78)"
+    }
+    TeslaModel3 {
+      translation 82.99 -154.65 18.7
+      rotation 0 0 1 1.5708
+      name "vehicle(79)"
+    }
+    TeslaModel3 {
+      translation 76.02 -154.65 18.71
+      rotation 0 0 1 1.5708
+      name "vehicle(80)"
+    }
+    TeslaModel3 {
+      translation 70.1 -154.65 18.64
+      rotation 0 0 1 1.5708
+      name "vehicle(81)"
+    }
+    TeslaModel3 {
+      translation 63.58 -154.65 18.77
+      rotation 0 0 1 1.5708
+      name "vehicle(82)"
+    }
+    TeslaModel3 {
+      translation 58.05 -154.65 18.79
+      rotation 0 0 1 1.5708
+      name "vehicle(83)"
+    }
+    TeslaModel3 {
+      translation 67.85 -129.78 9.92
+      rotation 0 0 1 1.5708
+      name "vehicle(84)"
+    }
+    TeslaModel3 {
+      translation 62.84 -129.78 10.02
+      rotation 0 0 1 1.5708
+      name "vehicle(109)"
+    }
+    TeslaModel3 {
+      translation 74.42 -129.78 9.9
+      rotation 0 0 1 1.5708
+      name "vehicle(85)"
+    }
+    TeslaModel3 {
+      translation 86.65 -129.78 9.94
+      rotation 0 0 1 1.5708
+      name "vehicle(86)"
+    }
+    TeslaModel3 {
+      translation 118.8 -129.78 9.92
+      rotation 0 0 1 1.5708
+      name "vehicle(87)"
+    }
+    TeslaModel3 {
+      translation 92.31 -129.78 9.94
+      rotation 0 0 1 1.5708
+      name "vehicle(88)"
+    }
+    TeslaModel3 {
+      translation 81.08 -129.78 9.92
+      rotation 0 0 1 1.5708
+      name "vehicle(89)"
+    }
+    TeslaModel3 {
+      translation 111.23 -129.78 9.93
+      rotation 0 0 1 1.5708
+      name "vehicle(90)"
+    }
+    TeslaModel3 {
+      translation 98.58 -129.78 9.91
+      rotation 0 0 1 1.5708
+      name "vehicle(91)"
+    }
+    TeslaModel3 {
+      translation 125.52 -129.78 9.95
+      rotation 0 0 1 1.5708
+      name "vehicle(92)"
+    }
+    TeslaModel3 {
+      translation 104.3 -129.63 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(108)"
+    }
+    TeslaModel3 {
+      translation 133.52 -129.78 9.92
+      rotation 0 0 1 1.5708
+      name "vehicle(93)"
+    }
+    TeslaModel3 {
+      translation 100.99 -119.81 10.02
+      rotation 0 0 1 1.5708
+      name "vehicle(94)"
+    }
+    TeslaModel3 {
+      translation 106.95 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(95)"
+    }
+    TeslaModel3 {
+      translation 113.42 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(96)"
+    }
+    TeslaModel3 {
+      translation 118.95 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(97)"
+    }
+    TeslaModel3 {
+      translation 124.06 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(98)"
+    }
+    TeslaModel3 {
+      translation 128.8 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(99)"
+    }
+    TeslaModel3 {
+      translation 133.41 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(100)"
+    }
+    TeslaModel3 {
+      translation 137.76 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(101)"
+    }
+    TeslaModel3 {
+      translation 94.48 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(102)"
+    }
+    TeslaModel3 {
+      translation 90.28 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(103)"
+    }
+    TeslaModel3 {
+      translation 85.46 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(104)"
+    }
+    TeslaModel3 {
+      translation 79.71 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(105)"
+    }
+    TeslaModel3 {
+      translation 72.55 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(106)"
+    }
+    TeslaModel3 {
+      translation 67 -119.81 10.12
+      rotation 0 0 1 1.5708
+      name "vehicle(107)"
+    }
+    TeslaModel3 {
+      translation 139.15 -171.52 19.07
+      rotation 0 0 1 1.5708
+      name "vehicle(19)"
+    }
+    TeslaModel3 {
+      translation 134.97 -171.52 19.17
+      rotation 0 0 1 1.5708
+      name "vehicle(38)"
+    }
+    TeslaModel3 {
+      translation 135.07 -164.31 18.79
+      rotation 0 0 1 1.5708
+      name "vehicle(54)"
+    }
+    TeslaModel3 {
+      translation 130.98 -164.31 18.83
+      rotation 0 0 1 1.5708
+      name "vehicle(55)"
+    }
+    TeslaModel3 {
+      translation 126.23 -164.31 18.8
+      rotation 0 0 1 1.5708
+      name "vehicle(56)"
+    }
+    TeslaModel3 {
+      translation 121.35 -164.31 18.81
+      rotation 0 0 1 1.5708
+      name "vehicle(57)"
+    }
+    TeslaModel3 {
+      translation 117.26 -164.31 18.71
+      rotation 0 0 1 1.5708
+      name "vehicle(58)"
+    }
+    TeslaModel3 {
+      translation 113.17 -164.31 18.83
+      rotation 0 0 1 1.5708
+      name "vehicle(59)"
+    }
+    TeslaModel3 {
+      translation 108.56 -164.31 18.84
+      rotation 0 0 1 1.5708
+      name "vehicle(60)"
+    }
+    TeslaModel3 {
+      translation 102.76 -164.31 18.83
+      rotation 0 0 1 1.5708
+      name "vehicle(61)"
+    }
+    TeslaModel3 {
+      translation 99.19 -164.31 18.87
+      rotation 0 0 1 1.5708
+      name "vehicle(62)"
+    }
+    TeslaModel3 {
+      translation 94.45 -164.31 18.78
+      rotation 0 0 1 1.5708
+      name "vehicle(63)"
+    }
+    TeslaModel3 {
+      translation 89.07 -164.31 18.9
+      rotation 0 0 1 1.5708
+      name "vehicle(64)"
+    }
+    TeslaModel3 {
+      translation 82.77 -164.31 18.83
+      rotation 0 0 1 1.5708
+      name "vehicle(65)"
+    }
+    TeslaModel3 {
+      translation 77.52 -164.31 18.89
+      rotation 0 0 1 1.5708
+      name "vehicle(66)"
+    }
+    TeslaModel3 {
+      translation 71.75 -164.31 18.77
+      rotation 0 0 1 1.5708
+      name "vehicle(67)"
+    }
+    TeslaModel3 {
+      translation 65.98 -164.31 18.77
+      rotation 0 0 1 1.5708
+      name "vehicle(68)"
+    }
+    TeslaModel3 {
+      translation 59.43 -164.31 18.77
+      rotation 0 0 1 1.5708
+      name "vehicle(69)"
+    }
+    TeslaModel3 {
+      translation 130.73 -171.52 19.17
+      rotation 0 0 1 1.5708
+      name "vehicle(39)"
+    }
+    TeslaModel3 {
+      translation 126.41 -171.52 19.17
+      rotation 0 0 1 1.5708
+      name "vehicle(40)"
+    }
+    TeslaModel3 {
+      translation 122.03 -171.52 18.78
+      rotation 0 0 1 1.5708
+      name "vehicle(41)"
+    }
+    TeslaModel3 {
+      translation 118.16 -171.52 18.8
+      rotation 0 0 1 1.5708
+      name "vehicle(42)"
+    }
+    TeslaModel3 {
+      translation 113.41 -171.52 18.77
+      rotation 0 0 1 1.5708
+      name "vehicle(43)"
+    }
+    TeslaModel3 {
+      translation 108.48 -171.52 19.17
+      rotation 0 0 1 1.5708
+      name "vehicle(44)"
+    }
+    TeslaModel3 {
+      translation 103.3 -171.52 19.17
+      rotation 0 0 1 1.5708
+      name "vehicle(45)"
+    }
+    TeslaModel3 {
+      translation 99.49 -171.52 19.17
+      rotation 0 0 1 1.5708
+      name "vehicle(46)"
+    }
+    TeslaModel3 {
+      translation 94.07 -171.52 19.17
+      rotation 0 0 1 1.5708
+      name "vehicle(47)"
+    }
+    TeslaModel3 {
+      translation 89.02 -171.52 18.76
+      rotation 0 0 1 1.5708
+      name "vehicle(48)"
+    }
+    TeslaModel3 {
+      translation 82.98 -171.52 18.81
+      rotation 0 0 1 1.5708
+      name "vehicle(49)"
+    }
+    TeslaModel3 {
+      translation 77.31 -171.52 18.81
+      rotation 0 0 1 1.5708
+      name "vehicle(50)"
+    }
+    TeslaModel3 {
+      translation 70.84 -171.52 18.9
+      rotation 0 0 1 1.5708
+      name "vehicle(51)"
+    }
+    TeslaModel3 {
+      translation 65.6 -171.52 18.88
+      rotation 0 0 1 1.5708
+      name "vehicle(52)"
+    }
+    TeslaModel3 {
+      translation 59.17 -171.52 18.8
+      rotation 0 0 1 1.5708
+      name "vehicle(53)"
+    }
+    TeslaModel3 {
+      translation 139.25 -183.13 18.81
+      rotation 0 0 1 1.5708
+      name "vehicle(20)"
+    }
+    TeslaModel3 {
+      translation 133.52 -183.13 18.81
+      rotation 0 0 1 1.5708
+      name "vehicle(21)"
+    }
+    TeslaModel3 {
+      translation 128.06 -183.13 18.77
+      rotation 0 0 1 1.5708
+      name "vehicle(22)"
+    }
+    TeslaModel3 {
+      translation 122.39 -183.13 18.8
+      rotation 0 0 1 1.5708
+      name "vehicle(26)"
+    }
+    TeslaModel3 {
+      translation 116.95 -183.13 18.81
+      rotation 0 0 1 1.5708
+      name "vehicle(27)"
+    }
+    TeslaModel3 {
+      translation 111.35 -183.13 18.81
+      rotation 0 0 1 1.5708
+      name "vehicle(28)"
+    }
+    TeslaModel3 {
+      translation 105.22 -183.13 18.86
+      rotation 0 0 1 1.5708
+      name "vehicle(29)"
+    }
+    TeslaModel3 {
+      translation 98.99 -183.13 18.81
+      rotation 0 0 1 1.5708
+      name "vehicle(30)"
+    }
+    TeslaModel3 {
+      translation 92.44 -183.13 18.81
+      rotation 0 0 1 1.5708
+      name "vehicle(31)"
+    }
+    TeslaModel3 {
+      translation 83.63 -183.13 18.83
+      rotation 0 0 1 1.5708
+      name "vehicle(32)"
+    }
+    TeslaModel3 {
+      translation 77.64 -183.13 18.86
+      rotation 0 0 1 1.5708
+      name "vehicle(34)"
+    }
+    TeslaModel3 {
+      translation 71.61 -183.13 18.86
+      rotation 0 0 1 1.5708
+      name "vehicle(35)"
+    }
+    TeslaModel3 {
+      translation 65.18 -183.13 18.92
+      rotation 0 0 1 1.5708
+      name "vehicle(36)"
+    }
+    TeslaModel3 {
+      translation 59.29 -183.13 18.95
+      rotation 0 0 1 1.5708
+      name "vehicle(37)"
+    }
+    Solid {
+      translation 99.06 -123.11 9.56
+      children [
+        Shape {
+          appearance Asphalt {
+          }
+          geometry Plane {
+            size 85 19
+          }
+        }
+      ]
+      name "solid(6)"
+    }
+    Solid {
+      translation 47.13 -106.888 4.35002
+      rotation -0.3574069463669815 0.35740494636728165 0.8628568705184134 1.71778
+      children [
+        Shape {
+          appearance Asphalt {
+          }
+          geometry Plane {
+            size 15 19
+          }
+        }
+      ]
+      name "solid(8)"
+    }
+    Solid {
+      translation 47.26 -123.927 9.5438
+      rotation -7.94056e-08 4.32506e-07 -1 -1.5708053071795867
+      children [
+        Shape {
+          appearance Asphalt {
+          }
+          geometry Plane {
+            size 24 19
+          }
+        }
+      ]
+      name "solid(10)"
+    }
+    Solid {
+      translation 47.26 -90.467 0.193796
+      rotation -7.94056e-08 4.32506e-07 -1 -1.5708053071795867
+      children [
+        Shape {
+          appearance Asphalt {
+          }
+          geometry Plane {
+            size 78 19
+          }
+        }
+      ]
+      name "solid(12)"
+    }
+    Solid {
+      translation 47.09 -163.397 19.0938
+      rotation -7.94056e-08 4.32506e-07 -1 -1.5708053071795867
+      children [
+        Shape {
+          appearance Asphalt {
+          }
+          geometry Plane {
+            size 49 19
+          }
+        }
+      ]
+      name "solid(11)"
+    }
+    Solid {
+      translation 47.13 -136.013 14.1806
+      rotation 0.4472139772097527 -0.4472109772099056 -0.7745979605261016 -1.823475307179586
+      children [
+        Shape {
+          appearance Asphalt {
+          }
+          geometry Plane {
+            size 13 19
+          }
+        }
+      ]
+      name "solid(9)"
+    }
+    Solid {
+      translation 99.06 -168.7 18.42
+      children [
+        Shape {
+          appearance Asphalt {
+          }
+          geometry Plane {
+            size 93 40
+          }
+        }
+      ]
+      name "solid(7)"
+    }
+  ]
+}
+Group {
+  children [
+    Pine {
+      translation -10.59 101.94 0
+      name "pine tree(4)"
+    }
+    Pine {
+      translation -48.06 141.49 0
+      name "pine tree(5)"
+    }
+    Pine {
+      translation -19.41 15.46 0
+      name "pine tree(17)"
+    }
+    Pine {
+      translation -29.96 -16.77 0
+      name "pine tree(18)"
+    }
+    Pine {
+      translation 12.38 130.72 0
+      name "pine tree(23)"
+    }
+    Pine {
+      translation -8.47 -21.45 0
+      name "pine tree(19)"
+    }
+    Pine {
+      translation -43.84 24.32 0
+      name "pine tree(20)"
+    }
+    Pine {
+      translation -40.21 129.59 0
+      name "pine tree(21)"
+    }
+    Pine {
+      translation -78.32 141.26 0
+      name "pine tree(22)"
+    }
+    Pine {
+      translation -61.79 95.23 -0.000173164
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(6)"
+    }
+    Pine {
+      translation -98.93 98.58 -0.000157447
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(7)"
+    }
+    Pine {
+      translation -28.44 84.43 -0.000223847
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(16)"
+    }
+    Pine {
+      translation -65.45 104.11 -0.000131493
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(8)"
+    }
+    Pine {
+      translation -54.97 22 -0.000516815
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(9)"
+    }
+    Pine {
+      translation -123.74 137.87 2.69378e-05
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(11)"
+    }
+    Pine {
+      translation -30.99 5.2 -0.000595658
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(12)"
+    }
+    Pine {
+      translation -22.6 5.2 -0.000595658
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(24)"
+    }
+    Pine {
+      translation -22.6 -5 -0.000643524
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(25)"
+    }
+    Pine {
+      translation -114.9 45.9 -0.00040466
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(13)"
+    }
+    Pine {
+      translation -132.69 36.31 -0.000449663
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(14)"
+    }
+    Pine {
+      translation -100.27 39.65 -0.000433983
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(15)"
+    }
+    Pine {
+      translation -86.8 126.31 -2.73098e-05
+      rotation 1 0 0 4.692820414042842e-06
+      name "pine tree(10)"
+    }
+    BigSassafras {
+      translation -133.79 47.41 0
+      name "sassafras tree(37)"
+    }
+    Sassafras {
+      translation -8.02 93.69 0
+      name "sassafras tree(11)"
+    }
+    Sassafras {
+      translation -29.48 92.77 0
+      name "sassafras tree(17)"
+    }
+    Sassafras {
+      translation -26.24 121.35 0
+      name "sassafras tree(18)"
+    }
+    Sassafras {
+      translation -43.76 109.17 0
+      name "sassafras tree(27)"
+    }
+    Sassafras {
+      translation -59.92 110.2 0
+      name "sassafras tree(28)"
+    }
+    Sassafras {
+      translation -23.52 100.38 0
+      name "sassafras tree(29)"
+    }
+    Sassafras {
+      translation -25.99 107.81 0
+      name "sassafras tree(30)"
+    }
+    Sassafras {
+      translation -13.93 83.48 0
+      name "sassafras tree(31)"
+    }
+    Sassafras {
+      translation -43.76 102.23 0
+      name "sassafras tree(19)"
+    }
+    Sassafras {
+      translation -77.75 100.18 0
+      name "sassafras tree(20)"
+    }
+    Sassafras {
+      translation -117.56 127.97 0
+      name "sassafras tree(21)"
+    }
+    Sassafras {
+      translation -138.92 136.86 0
+      name "sassafras tree(22)"
+    }
+    Sassafras {
+      translation -79.44 134.31 0
+      name "sassafras tree(23)"
+    }
+    Sassafras {
+      translation 2.77 -12.78 0
+      name "sassafras tree(24)"
+    }
+    Sassafras {
+      translation -73.22 123.36 0
+      name "sassafras tree(25)"
+    }
+    Sassafras {
+      translation -91.17 50.44 0
+      name "sassafras tree(32)"
+    }
+    Sassafras {
+      translation -25.39 25.48 0
+      name "sassafras tree(36)"
+    }
+    Sassafras {
+      translation -74.85 26.02 0
+      name "sassafras tree(33)"
+    }
+    Sassafras {
+      translation -96.11 134.58 0
+      name "sassafras tree(34)"
+    }
+    Sassafras {
+      translation -108.98 107.29 0
+      name "sassafras tree(26)"
+    }
+    Sassafras {
+      translation -108.98 59.32 0
+      name "sassafras tree(35)"
+    }
+    Sassafras {
+      translation 4.37 102.48 0
+      name "sassafras tree(16)"
+    }
+    Sassafras {
+      translation 19.17 97.63 0
+      name "sassafras tree(12)"
+    }
+    Sassafras {
+      translation 7.85 89.11 0
+      name "sassafras tree(13)"
+    }
+    Sassafras {
+      translation -10.87 -0.66 0
+      name "sassafras tree(14)"
+    }
+    Sassafras {
+      translation -6.88 -8.54 0
+      name "sassafras tree(63)"
+    }
+    Sassafras {
+      translation -4.62 10.89 0
+      name "sassafras tree(60)"
+    }
+    Sassafras {
+      translation -18.97 8.86 0
+      name "sassafras tree(59)"
+    }
+    Sassafras {
+      translation -17.22 -13.51 0
+      name "sassafras tree(15)"
+    }
+    Warehouse {
+      translation -54.97 126.898 -7.71499e-05
+      rotation 2.346409999903575e-06 8.756919999640137e-06 0.9999999999589053 0.523599
+    }
+    Warehouse {
+      translation -91.6532 117.691 0.139995
+      rotation 2.3464099999825706e-06 3.0578999999772855e-06 0.9999999999925719 1.309
+      name "warehouse(1)"
+    }
+    Warehouse {
+      translation -17.649 133.037 0.00971505
+      rotation 2.3464099999825706e-06 3.0578999999772855e-06 0.9999999999925719 1.309
+      name "warehouse(2)"
+    }
+    Warehouse {
+      translation -4.29579 114.317 0.00965239
+      rotation 2.3464099999897377e-06 1.8004599999921255e-06 0.9999999999956264 1.8326
+      name "warehouse(6)"
+    }
+    Warehouse {
+      translation 10.9745 77.3848 0.00958071
+      rotation 2.3464099999913877e-06 1.3546999999950276e-06 0.9999999999963296 2.0944
+      name "warehouse(5)"
+    }
+  ]
+}
+Group {
+  children [
+    StraightRoadSegment {
+      translation 93.499 -56.3604 0.09
+      rotation 0 0 1 0.523598
+      name "road(2)"
+      roadBorderHeight 0.07
+      startingRoadBorderWidth 1.3
+      length 63
+      locked FALSE
+    }
+    StraightRoadSegment {
+      translation 85.3642 -20.3144 0.09
+      rotation 0 0 1 1.0472
+      name "road(3)"
+      width 9
+      roadBorderHeight 0.07
+      startingRoadBorderWidth 1.3
+      length 111
+      locked FALSE
+    }
+    StraightStairs {
+      translation -105.797 -102.619 -0.13
+      rotation 0 0 1 -1.5707953071795862
+      name "straight stairs(2)"
+      stepSize 0.4 1.27 0.06
+      stepRise 0.4
+      nSteps 24
+      stringerWidth 0.4
+      stepAppearance VarnishedPine {
+        colorOverride 0.824537 0.815763 0.76965
+        textureTransform TextureTransform {
+          scale 4 4
+        }
+      }
+      stringerAppearance VarnishedPine {
+        colorOverride 0.824537 0.819455 0.798932
+        textureTransform TextureTransform {
+          scale 4 4
+        }
+      }
+    }
+    StraightStairs {
+      translation -104.787 -132.249 8.72
+      rotation 0 0 1 -1.5707953071795862
+      name "straight stairs(1)"
+      stepSize 0.4 1.27 0.06
+      stepRise 0.4
+      nSteps 24
+      stringerWidth 0.4
+      stepAppearance VarnishedPine {
+        colorOverride 0.824537 0.815763 0.76965
+        textureTransform TextureTransform {
+          scale 4 4
+        }
+      }
+      stringerAppearance VarnishedPine {
+        colorOverride 0.824537 0.819455 0.798932
+        textureTransform TextureTransform {
+          scale 4 4
+        }
+      }
+    }
+    StraightStairs {
+      translation -106.747 -132.249 8.72
+      rotation 0 0 1 -1.5707953071795862
+      name "straight stairs(3)"
+      stepSize 0.4 1.27 0.06
+      stepRise 0.4
+      nSteps 24
+      stringerWidth 0.4
+      stepAppearance VarnishedPine {
+        colorOverride 0.824537 0.815763 0.76965
+        textureTransform TextureTransform {
+          scale 4 4
+        }
+      }
+      stringerAppearance VarnishedPine {
+        colorOverride 0.824537 0.819455 0.798932
+        textureTransform TextureTransform {
+          scale 4 4
+        }
+      }
+    }
+    StraightStairs {
+      translation -107.837 -102.619 -0.13
+      rotation 0 0 1 -1.5707953071795862
+      name "straight stairs(4)"
+      stepSize 0.4 1.27 0.06
+      stepRise 0.4
+      nSteps 24
+      stringerWidth 0.4
+      stepAppearance VarnishedPine {
+        colorOverride 0.824537 0.815763 0.76965
+        textureTransform TextureTransform {
+          scale 4 4
+        }
+      }
+      stringerAppearance VarnishedPine {
+        colorOverride 0.824537 0.819455 0.798932
+        textureTransform TextureTransform {
+          scale 4 4
+        }
+      }
+    }
+    Solid {
+      translation -0.01 -109.141 -1.11716
+      rotation 1 0 0 0.785398
+      children [
+        Shape {
+          appearance SandyGround {
+          }
+          geometry Box {
+            size 300 10 19
+          }
+        }
+      ]
+      name "solid(2)"
+    }
+    Solid {
+      translation 0.44 -138.673 7.61537
+      rotation 1 0 0 0.785398
+      children [
+        Shape {
+          appearance SandyGround {
+          }
+          geometry Box {
+            size 300 10 19
+          }
+        }
+      ]
+      name "solid(1)"
+    }
+    Solid {
+      translation -0.01 -124.27 0
+      children [
+        Shape {
+          appearance SandyGround {
+          }
+          geometry Box {
+            size 300 23 19
+          }
+        }
+      ]
+      name "solid(4)"
+    }
+    Solid {
+      translation 1.09 -166.71 8.75953
+      rotation 0 1 0 4.6928e-06
+      children [
+        Shape {
+          appearance SandyGround {
+          }
+          geometry Box {
+            size 300 49 19
+          }
+        }
+      ]
+      name "solid(3)"
+    }
+    Solid {
+      translation 1.6 -147.15 -2.26058
+      rotation 0 1 0 4.6928e-06
+      children [
+        Shape {
+          appearance SandyGround {
+          }
+          geometry Box {
+            size 300 23 19
+          }
+        }
+      ]
+      name "solid(5)"
+    }
+  ]
+}
+Group {
+  children [
+    HollowBuilding {
+      translation -118.23 -162.81 18.12
+    }
+    ModernHouse {
+      translation 26.6099 -177.087 16.96
+      rotation 0 0 1 3.14159
+    }
+    Pine {
+      translation -52.26 -124.11 9.01
+    }
+    Pine {
+      translation -67.82 -114.21 9.01
+      name "pine tree(1)"
+    }
+    Pine {
+      translation -60.19 -119.38 9.01
+      name "pine tree(2)"
+    }
+    Pine {
+      translation -56.08 -114.81 9.01
+      name "pine tree(3)"
+    }
+    LargeResidentialTower {
+      translation -51.91 -182.05 18.85
+    }
+    LargeResidentialTower {
+      translation -13.17 -179.73 18.85
+      name "residential tower(3)"
+    }
+    LargeResidentialTower {
+      translation -81.54 -179.73 18.85
+      name "residential tower(4)"
+    }
+  ]
+}
+TexturedBackground {
+  luminosity 3
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 300 300
+  tileSize 6 6
+  appearance SandyGround {
+  }
+}
+CyberboticsTower {
+  translation -124.937 107.404 0
+  rotation 0 0 1 0.523599
+  name "Cyberbotics tower(1)"
+}
+Auditorium {
+  translation 50.2672 55.1045 0
+  rotation 0 0 1 -0.785395307179586
+}
+Auditorium {
+  translation 81.7026 106 0
+  rotation 0 0 -1 1.309
+  name "auditorium(1)"
+}
+TheThreeTowers {
+  translation 75.3233 122.54 0
+  rotation 0 0 -1 -1.8326053071795858
+}
+Group {
+  children [
+    BigSassafras {
+      translation -66.35 -16.05 0
+      name "sassafras tree(43)"
+    }
+    PublicBin {
+      translation -46.32 -11.79 0
+    }
+    PublicBin {
+      translation -49.07 -26.92 0
+      name "public bin(1)"
+    }
+    PublicBin {
+      translation -72.49 -41.07 0
+      name "public bin(2)"
+    }
+    SimpleBench {
+      translation -69.19 -39.21 0
+    }
+    SimpleBench {
+      translation -66.48 -39.21 0
+      name "simple bench(3)"
+    }
+    SimpleBench {
+      translation -69.24 -37.64 0
+      name "simple bench(1)"
+    }
+    SimpleBench {
+      translation -66.42 -37.64 0
+      name "simple bench(2)"
+    }
+    StreetLight {
+      translation -45.15 -10.45 0
+    }
+    StreetLight {
+      translation -52.63 -31.79 0
+      name "street light(20)"
+    }
+    StreetLight {
+      translation -69.87 8.14 0
+      name "street light(22)"
+    }
+    StreetLight {
+      translation -72.53 -39.81 0
+      name "street light(21)"
+    }
+    Oak {
+      translation -48.57 4.16 9.28723e-05
+      rotation 1 0 0 4.692820414042842e-06
+    }
+    Oak {
+      translation -54.4 -3.03 5.91299e-05
+      rotation 1 0 0 4.692820414042842e-06
+      name "oak tree(5)"
+    }
+    Bench {
+      translation -41.12 -5.78 0
+      rotation 0 0 1 -1.5707953071795862
+    }
+    Bench {
+      translation -43.83 -8.54 0.12
+      name "bench(1)"
+    }
+    Bench {
+      translation -49.11 -30.89 0.12
+      name "bench(2)"
+    }
+    Bench {
+      translation -49.12 -28.58 0.12
+      name "bench(2)"
+    }
+    Bench {
+      translation -45.98 -27.02 0.12
+      rotation 0 0 1 -1.5707953071795862
+      name "bench(2)"
+    }
+  ]
+}
+StoneBench {
+  translation -68.33 5.45 0
+}
+StoneBench {
+  translation -68.33 7.05 0
+  name "stone bench(1)"
+}
+BigSassafras {
+  translation -45.44 -6.07 0
+  name "sassafras tree(4)"
+}
+BigSassafras {
+  translation -42.9 -22.01 0
+  name "sassafras tree(38)"
+}
+BigSassafras {
+  translation -58.03 -25.04 0
+  name "sassafras tree(39)"
+}
+BigSassafras {
+  translation -61.07 -32.65 0
+  name "sassafras tree(40)"
+}
+BigSassafras {
+  translation -39.15 -37.2 0
+  name "sassafras tree(41)"
+}
+BigSassafras {
+  translation -27.03 -29.55 0
+  name "sassafras tree(42)"
+}
+BigSassafras {
+  translation -54.87 3.79 0
+  name "sassafras tree(5)"
+}
+BigSassafras {
+  translation -62.28 14.42 0
+  name "sassafras tree(10)"
+}
+BigSassafras {
+  translation -64.83 -1.8 0
+  name "sassafras tree(7)"
+}
+BigSassafras {
+  translation -57.41 -6.31 0
+  name "sassafras tree(8)"
+}
+BigSassafras {
+  translation -50.31 -14.09 0
+  name "sassafras tree(9)"
+}
+BigSassafras {
+  translation -48.92 12.51 6.99201e-06
+  rotation 1 0 0 4.692820414042842e-06
+  name "sassafras tree(6)"
+}
+BigSassafras {
+  translation -36.3 0.34 -5.01196e-05
+  rotation 1 0 0 4.692820414042842e-06
+  name "sassafras tree(64)"
+}
+BigSassafras {
+  translation -34.36 12.51 6.99201e-06
+  rotation 1 0 0 4.692820414042842e-06
+  name "sassafras tree(61)"
+}
+BigSassafras {
+  translation -34.36 21.12 4.73967e-05
+  rotation 1 0 0 4.692820414042842e-06
+  name "sassafras tree(62)"
+}
+BigSassafras {
+  translation -98.27 -79.26 0
+}
+BigSassafras {
+  translation -116.51 -79.26 0
+  name "sassafras tree(57)"
+}
+BigSassafras {
+  translation -131.3 -79.26 0
+  name "sassafras tree(58)"
+}
+BigSassafras {
+  translation -53.4 -79.26 0
+  name "sassafras tree(2)"
+}
+BigSassafras {
+  translation -76.33 -79.26 0
+  name "sassafras tree(51)"
+}
+BigSassafras {
+  translation -62.48 -79.26 0
+  name "sassafras tree(52)"
+}
+BigSassafras {
+  translation -72.57 -56.6 0
+  name "sassafras tree(3)"
+}
+BigSassafras {
+  translation -87.85 -56.6 0
+  name "sassafras tree(53)"
+}
+BigSassafras {
+  translation -106.53 -56.6 0
+  name "sassafras tree(54)"
+}
+BigSassafras {
+  translation -126.41 -56.6 0
+  name "sassafras tree(55)"
+}
+BigSassafras {
+  translation -140.17 -56.6 0
+  name "sassafras tree(56)"
+}
+BigSassafras {
+  translation -58.86 -56.6 0
+  name "sassafras tree(46)"
+}
+BigSassafras {
+  translation -45.66 -56.6 0
+  name "sassafras tree(47)"
+}
+BigSassafras {
+  translation -32.41 -56.6 0
+  name "sassafras tree(48)"
+}
+BigSassafras {
+  translation -20.43 -56.6 0
+  name "sassafras tree(49)"
+}
+BigSassafras {
+  translation -8.66 -56.6 0
+  name "sassafras tree(50)"
+}
+Solid {
+  translation -74.46 -69.05 0.33
+  children [
+    Shape {
+      geometry Plane {
+        size 150 15
+      }
+    }
+  ]
+}
+Group {
+  children [
+    TeslaModel3 {
+      translation -120.78 86.09 0.8
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(14)"
+    }
+    TeslaModel3 {
+      translation -113.7 85.84 0.9
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(1)"
+    }
+    TeslaModel3 {
+      translation -127.91 85.03 0.9
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(2)"
+    }
+    TeslaModel3 {
+      translation -106.26 86.58 0.9
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(3)"
+    }
+    TeslaModel3 {
+      translation -136.85 85.64 0.9
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(4)"
+    }
+    TeslaModel3 {
+      translation -120.68 71.93 0.9
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(5)"
+    }
+    TeslaModel3 {
+      translation -127.13 71.44 1
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(8)"
+    }
+    TeslaModel3 {
+      translation -133.83 71.88 1
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(9)"
+    }
+    TeslaModel3 {
+      translation -98.72 71.76 1
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(10)"
+    }
+    TeslaModel3 {
+      translation -141.05 72.15 1
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(11)"
+    }
+    TeslaModel3 {
+      translation -92.23 72.03 1
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(12)"
+    }
+    TeslaModel3 {
+      translation -86.46 72.12 1
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(13)"
+    }
+    TeslaModel3 {
+      translation -146.72 72.52 1
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(15)"
+    }
+    TeslaModel3 {
+      translation -112.59 72.98 1
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(16)"
+    }
+    TeslaModel3 {
+      translation -105.48 73.18 1
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(17)"
+    }
+    TeslaModel3 {
+      translation -91.9 85.76 0.9
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(7)"
+    }
+    TeslaModel3 {
+      translation -145.2 84.82 0.9
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(6)"
+    }
+    TeslaModel3 {
+      translation -83.98 86.62 0.6
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(25)"
+    }
+    TeslaModel3 {
+      translation -78.26 72.52 0.5
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(24)"
+    }
+    TeslaModel3 {
+      translation -97.91 86.78 0.7
+      rotation 0 0 1 -1.5707953071795862
+      name "vehicle(23)"
+    }
+  ]
+}
+ResidentialBuilding {
+  translation -132.15 -7.75 0
+}
+ResidentialBuilding {
+  translation -83.93 -8.73 0.15
+  name "residential building(1)"
+}
+LargeResidentialTower {
+  translation -97.7 22.2998 0
+  rotation 0 0 1 1.01459e-06
+  name "residential tower(2)"
+}
+LargeResidentialTower {
+  translation -114.3 23.4098 0
+  rotation 0 0 1 -1.5708053071795867
+  name "residential tower(1)"
+}
+Forest {
+  translation -69.9588 44.3824 -0.119368
+  rotation -2.3463999999741635e-06 4.0640899999552495e-06 -0.9999999999889888 1.0472
+  maxHeight 21
+}
+Forest {
+  translation 106.898 -17.8928 -0.120196
+  rotation 2.3546999999934724e-06 4.793029999986713e-09 0.9999999999972278 3.14159
+}
+Forest {
+  translation 98.6947 -47.108 0.359839
+  rotation -2.3629899999737964e-06 4.073649999954827e-06 -0.9999999999889109 1.0472
+  shape [
+    -1 -25
+    -6 -2
+    0 25
+  ]
+  maxHeight 14
+  maxRadius 6
+}
+Forest {
+  translation 126.438 9.4972 -0.12029
+  rotation 2.3546999999934724e-06 4.793029999986713e-09 0.9999999999972278 3.14159
+}
+Forest {
+  translation 130.688 -11.6863 -0.120309
+  rotation 2.3574699999912856e-06 -1.3546899999949926e-06 0.9999999999963036 -2.094395307179586
+}
+Forest {
+  translation 100.001 -34.572 -0.120158
+  rotation 0.0030538307191731438 -0.7222501700889712 0.6916251628768222 -5.307179586466759e-06
+  shape [
+    -20 -10
+    44 -7
+    0 12
+  ]
+}
+Forest {
+  translation 135.46 23.1434 -0.120287
+  rotation 1.9059999999905544e-06 2.5058099999875817e-06 0.9999999999950442 1.30899
+  shape [
+    -20 -10
+    44 -7
+    0 12
+  ]
+}
+Forest {
+  translation 31.4774 118.49 -0.119838
+  rotation 2.346409999993429e-06 -3.089099999991349e-07 0.9999999999971996 -2.8797853071795863
+}
+Forest {
+  translation 44.7525 96.9366 -0.119912
+  rotation -2.346399999989738e-06 1.8004599999921255e-06 -0.9999999999956264 1.83259
+}
+Forest {
+  translation 112.116 114.815 -0.120224
+  rotation 2.346369999955896e-06 5.664639999893523e-06 0.9999999999812033 0.785405
+}
+Forest {
+  translation -20.4421 53.3108 -0.119606
+  rotation 2.3463899996208814e-06 1.782259999712031e-05 0.9999999998384248 0.2618
+  maxHeight 15
+}
+Forest {
+  translation -31.6658 47.7248 -0.119563
+  rotation 2.3463999999558942e-06 -5.6647099998935195e-06 0.9999999999812028 -0.7854053071795866
+  maxHeight 22
+}
+Forest {
+  translation -52.6029 51.5105 -0.119467
+  rotation 2.3464199999913876e-06 1.3547099999950277e-06 0.9999999999963296 2.09439
+  maxHeight 7
+  minHeight 14
+  maxRadius 11
+}
+Forest {
+  translation -45.5089 74.1567 -0.119465
+  rotation 2.3464099999741633e-06 -4.0640899999552495e-06 0.9999999999889888 -1.0472053071795866
+}
+CyberboticsTower {
+  translation -4.5149 48.5186 -20
+  rotation 0 0 1 -1.047195307179586
+}
+UBuilding {
+  translation 20.5326 23.8235 0
+  rotation 0 0 1 1.8326
+}
+SquareManhole {
+  translation 0 0 -0.03
+}
+CardboardBox {
+  translation -0.730157 -1.22891 0.3
+  rotation 0 0 1 -1.8325953071795862
+}
+Mavic2Pro {
+  translation 0 0 0.1
+  rotation 0 0 1 3.141590777218456
+  cameraSlot [
+    Camera {
+      width 400
+      height 240
+      near 0.2
+    }
+  ]
+}

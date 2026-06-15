@@ -1,0 +1,1135 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/SandyGround.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/dji/mavic/protos/Mavic2Pro.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Pine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/Oak.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/trees/protos/BigSassafras.proto"
+
+WorldInfo {
+  title "Mavic 2 Pro Bounded Forest Course"
+  defaultDamping Damping {
+    linear 0.5
+    angular 0.5
+  }
+}
+Viewpoint {
+  orientation 0.025361963546663677 0.05462779014325624 -0.99818463990843 0.8705894437743672
+  position -9.399605506003596 12.647636168669921 1.712880361274213
+  near 0.2
+  follow "Mavic 2 PRO"
+}
+TexturedBackground {
+  luminosity 3
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 200 200
+  tileSize 6 6
+  appearance SandyGround {
+  }
+}
+Mavic2Pro {
+  translation -1.2949e-06 1.27 0.1
+  rotation 0 0 -1 1.0472
+  controller "mavic_controller"
+  cameraSlot [
+    Camera {
+      width 320
+      height 240
+      near 0.2
+    }
+  ]
+}
+Pine {
+  translation -6 -15 0
+  name "pine_1"
+}
+Pine {
+  translation -3.16 -10.32 0
+  name "pine_1(3)"
+}
+Pine {
+  translation 3.47 -26.41 0
+  name "pine_1(5)"
+}
+Pine {
+  translation 3.47 -31.18 0
+  name "pine_1(6)"
+}
+Pine {
+  translation 3.47 -36.75 0
+  name "pine_1(7)"
+}
+Pine {
+  translation 3.47 -20.62 0
+  name "pine_1(8)"
+}
+Pine {
+  translation 10.74 -20.62 0
+  name "pine_1(9)"
+}
+Pine {
+  translation 10.74 -26.38 0
+  name "pine_1(10)"
+}
+Pine {
+  translation 33.25 -26.55 0
+  name "pine_1(13)"
+}
+Pine {
+  translation 29.21 -26.55 0
+  name "pine_1(37)"
+}
+Pine {
+  translation 29.21 -24.63 0
+  name "pine_1(38)"
+}
+Pine {
+  translation 25.82 -24.63 0
+  name "pine_1(39)"
+}
+Pine {
+  translation 25.82 -22.89 0
+  name "pine_1(40)"
+}
+Pine {
+  translation 25.82 -21.02 0
+  name "pine_1(41)"
+}
+Pine {
+  translation 31.88 -34.17 0
+  name "pine_1(14)"
+}
+Pine {
+  translation 34.09 -38.37 0
+  name "pine_1(15)"
+}
+Pine {
+  translation 40.17 -45.77 0
+  name "pine_1(16)"
+}
+Pine {
+  translation 36.96 -42.09 0
+  name "pine_1(17)"
+}
+Pine {
+  translation 10.74 -32.43 0
+  name "pine_1(11)"
+}
+Pine {
+  translation 10.74 -40.35 0
+  name "pine_1(12)"
+}
+Pine {
+  translation -1.59 -6.69 0
+  name "pine_1(4)"
+}
+Pine {
+  translation 26.59 -19.08 0
+  name "pine_1(2)"
+}
+Pine {
+  translation 23.13 -16.44 0
+  name "pine_1(27)"
+}
+Pine {
+  translation 16.38 -12.5 0
+  name "pine_1(35)"
+}
+Pine {
+  translation 19.15 -12.5 0
+  name "pine_1(42)"
+}
+Pine {
+  translation 23.14 -12.5 0
+  name "pine_1(43)"
+}
+Pine {
+  translation 8.11 -7.96 0
+  name "pine_1(44)"
+}
+Pine {
+  translation 5.66 -6.52 0
+  name "pine_1(45)"
+}
+Pine {
+  translation 5.66 -7.85 0
+  name "pine_1(137)"
+}
+Pine {
+  translation 6.29 -10.65 0
+  name "pine_1(138)"
+}
+Pine {
+  translation 7.19 -12.43 0
+  name "pine_1(139)"
+}
+Pine {
+  translation 2.5 -5.09 0
+  name "pine_1(46)"
+}
+Pine {
+  translation 29.25 -21.99 0
+  name "pine_1(36)"
+}
+Pine {
+  translation 23.13 -10.03 0
+  name "pine_1(28)"
+}
+Pine {
+  translation 17.08 -10.03 0
+  name "pine_1(29)"
+}
+Pine {
+  translation 13.46 -7.39 0
+  name "pine_1(30)"
+}
+Pine {
+  translation 37.81 -24.28 0
+  name "pine_1(31)"
+}
+Pine {
+  translation 37.81 -35.62 0
+  name "pine_1(32)"
+}
+Pine {
+  translation 33.7 -29.52 0
+  name "pine_1(33)"
+}
+Pine {
+  translation 44.76 -33.68 0
+  name "pine_1(34)"
+}
+Pine {
+  translation 19.87 0.66 0
+  name "pine_1(19)"
+}
+Pine {
+  translation 24.96 -2.93 0
+  name "pine_1(20)"
+}
+Pine {
+  translation 30.25 -7.62 0
+  name "pine_1(21)"
+}
+Pine {
+  translation 35.47 -14.22 0
+  name "pine_1(22)"
+}
+Pine {
+  translation 41.15 -21.37 0
+  name "pine_1(23)"
+}
+Pine {
+  translation 51.5 -33.84 0
+  name "pine_1(24)"
+}
+Pine {
+  translation 58.04 -40.27 0
+  name "pine_1(26)"
+}
+Pine {
+  translation 45.94 -27.92 0
+  name "pine_1(25)"
+}
+Pine {
+  translation -0.05 -2.94 0
+  name "pine_1(18)"
+}
+Pine {
+  translation 0.98 2.55 0
+  name "pine_1(47)"
+}
+Pine {
+  translation 0.98 6.57 0
+  name "pine_1(48)"
+}
+Pine {
+  translation 0.98 9.25 0
+  name "pine_1(140)"
+}
+Pine {
+  translation 0.98 4.42 0
+  name "pine_1(142)"
+}
+Pine {
+  translation -1.12 7.59 0
+  name "pine_1(143)"
+}
+Pine {
+  translation -1.12 5.59 0
+  name "pine_1(154)"
+}
+Pine {
+  translation -3.7 3.92 0
+  name "pine_1(155)"
+}
+Pine {
+  translation -6.26 2.4 0
+  name "pine_1(156)"
+}
+Pine {
+  translation -8.37 0.8 0
+  name "pine_1(157)"
+}
+Pine {
+  translation -11.11 -0.59 0
+  name "pine_1(158)"
+}
+Pine {
+  translation -12.79 -0.59 0
+  name "pine_1(159)"
+}
+Pine {
+  translation -9.87 4.83 0
+  name "pine_1(160)"
+}
+Pine {
+  translation -14.24 4.83 0
+  name "pine_1(163)"
+}
+Pine {
+  translation -14.24 1.96 0
+  name "pine_1(164)"
+}
+Pine {
+  translation -10.79 1.96 0
+  name "pine_1(165)"
+}
+Pine {
+  translation -1.99 1.96 0
+  name "pine_1(166)"
+}
+Pine {
+  translation -1.99 -1.18 0
+  name "pine_1(167)"
+}
+Pine {
+  translation -1.99 -4.45 0
+  name "pine_1(168)"
+}
+Pine {
+  translation -4.34 -4.45 0
+  name "pine_1(169)"
+}
+Pine {
+  translation -4.34 0.37 0
+  name "pine_1(170)"
+}
+Pine {
+  translation -6.38 -1.1 0
+  name "pine_1(172)"
+}
+Pine {
+  translation -6.38 -3.07 0
+  name "pine_1(173)"
+}
+Pine {
+  translation -6.38 -5.38 0
+  name "pine_1(174)"
+}
+Pine {
+  translation -6.38 -7.34 0
+  name "pine_1(175)"
+}
+Pine {
+  translation -6.38 -9.6 0
+  name "pine_1(176)"
+}
+Pine {
+  translation -6.38 -11.61 0
+  name "pine_1(177)"
+}
+Pine {
+  translation -4.34 -2.45 0
+  name "pine_1(171)"
+}
+Pine {
+  translation -7 4.83 0
+  name "pine_1(162)"
+}
+Pine {
+  translation -15.12 -2.91 0
+  name "pine_1(161)"
+}
+Pine {
+  translation -2.83 7.59 0
+  name "pine_1(144)"
+}
+Pine {
+  translation -4.4 7.59 0
+  name "pine_1(145)"
+}
+Pine {
+  translation -6.22 7.59 0
+  name "pine_1(146)"
+}
+Pine {
+  translation -8.05 7.59 0
+  name "pine_1(147)"
+}
+Pine {
+  translation -9.86 7.59 0
+  name "pine_1(148)"
+}
+Pine {
+  translation -11.41 7.59 0
+  name "pine_1(149)"
+}
+Pine {
+  translation -12.88 7.59 0
+  name "pine_1(150)"
+}
+Pine {
+  translation -14.83 7.59 0
+  name "pine_1(151)"
+}
+Pine {
+  translation -16.46 7.59 0
+  name "pine_1(152)"
+}
+Pine {
+  translation -18.16 7.59 0
+  name "pine_1(153)"
+}
+Pine {
+  translation 0.98 11.71 0
+  name "pine_1(49)"
+}
+Pine {
+  translation 0.98 17.47 0
+  name "pine_1(50)"
+}
+Pine {
+  translation 0.98 23.48 0
+  name "pine_1(51)"
+}
+Pine {
+  translation 0.98 29.49 0
+  name "pine_1(52)"
+}
+Pine {
+  translation 3.36 27.72 0
+  name "pine_1(53)"
+}
+Pine {
+  translation 3.36 20.58 0
+  name "pine_1(54)"
+}
+Pine {
+  translation 3.36 15.18 0
+  name "pine_1(55)"
+}
+Pine {
+  translation 3.36 9.92 0
+  name "pine_1(56)"
+}
+Pine {
+  translation 4.53 12.98 0
+  name "pine_1(61)"
+}
+Pine {
+  translation 4.53 12.98 0
+  name "pine_1(62)"
+}
+Pine {
+  translation 4.53 7.8 0
+  name "pine_1(63)"
+}
+Pine {
+  translation 4.53 2.85 0
+  name "pine_1(64)"
+}
+Pine {
+  translation 4.53 -2.41 0
+  name "pine_1(65)"
+}
+Pine {
+  translation 2.72 -2.41 0
+  name "pine_1(66)"
+}
+Pine {
+  translation 2.72 7.43 0
+  name "pine_1(67)"
+}
+Pine {
+  translation 2.72 12.91 0
+  name "pine_1(68)"
+}
+Pine {
+  translation 2.72 18.29 0
+  name "pine_1(69)"
+}
+Pine {
+  translation 5.56 22.65 0
+  name "pine_1(70)"
+}
+Pine {
+  translation 5.56 24.92 0
+  name "pine_1(71)"
+}
+Pine {
+  translation 3.36 5.14 0
+  name "pine_1(57)"
+}
+Pine {
+  translation 3.36 0.18 0
+  name "pine_1(58)"
+}
+Pine {
+  translation 6.26 2.75 0
+  name "pine_1(59)"
+}
+Pine {
+  translation 7.85 -0.16 0
+  name "pine_1(72)"
+}
+Pine {
+  translation 10.82 -0.16 0
+  name "pine_1(73)"
+}
+Pine {
+  translation 8.99 1.56 0
+  name "pine_1(74)"
+}
+Pine {
+  translation 8.03 3.95 0
+  name "pine_1(75)"
+}
+Pine {
+  translation 10.41 3.95 0
+  name "pine_1(84)"
+}
+Pine {
+  translation 12.67 3.95 0
+  name "pine_1(85)"
+}
+Pine {
+  translation 15.09 3.95 0
+  name "pine_1(86)"
+}
+Pine {
+  translation 17.23 3.95 0
+  name "pine_1(87)"
+}
+Pine {
+  translation 19.49 3.95 0
+  name "pine_1(88)"
+}
+Pine {
+  translation 21.4 3.95 0
+  name "pine_1(89)"
+}
+Pine {
+  translation 11.33 5.49 0
+  name "pine_1(90)"
+}
+Pine {
+  translation 14.22 5.49 0
+  name "pine_1(91)"
+}
+Pine {
+  translation 16.64 5.49 0
+  name "pine_1(92)"
+}
+Pine {
+  translation 19.21 5.49 0
+  name "pine_1(93)"
+}
+Pine {
+  translation 21.96 5.49 0
+  name "pine_1(94)"
+}
+Pine {
+  translation 25.21 5.49 0
+  name "pine_1(95)"
+}
+Pine {
+  translation 25.21 3.95 0
+  name "pine_1(96)"
+}
+Pine {
+  translation 25.21 2.05 0
+  name "pine_1(97)"
+}
+Pine {
+  translation 25.21 -0.36 0
+  name "pine_1(98)"
+}
+Pine {
+  translation 25.21 -6.33 0
+  name "pine_1(99)"
+}
+Pine {
+  translation 25.21 -8.75 0
+  name "pine_1(100)"
+}
+Pine {
+  translation 22.14 -8.75 0
+  name "pine_1(101)"
+}
+Pine {
+  translation 22.14 -6.76 0
+  name "pine_1(102)"
+}
+Pine {
+  translation 22.14 -4.96 0
+  name "pine_1(103)"
+}
+Pine {
+  translation 22.14 -2.57 0
+  name "pine_1(104)"
+}
+Pine {
+  translation 22.14 -0.71 0
+  name "pine_1(105)"
+}
+Pine {
+  translation 22.14 0.55 0
+  name "pine_1(106)"
+}
+Pine {
+  translation 22.14 2.55 0
+  name "pine_1(107)"
+}
+Pine {
+  translation 22.14 7.64 0
+  name "pine_1(108)"
+}
+Pine {
+  translation 22.14 9.08 0
+  name "pine_1(109)"
+}
+Pine {
+  translation 22.14 10.95 0
+  name "pine_1(110)"
+}
+Pine {
+  translation 22.14 12.44 0
+  name "pine_1(111)"
+}
+Pine {
+  translation 22.14 14.29 0
+  name "pine_1(112)"
+}
+Pine {
+  translation 19.48 14.29 0
+  name "pine_1(113)"
+}
+Pine {
+  translation 18.26 14.29 0
+  name "pine_1(114)"
+}
+Pine {
+  translation 15.21 14.29 0
+  name "pine_1(115)"
+}
+Pine {
+  translation 13.25 14.29 0
+  name "pine_1(116)"
+}
+Pine {
+  translation 11.1 14.29 0
+  name "pine_1(117)"
+}
+Pine {
+  translation 11.1 7.23 0
+  name "pine_1(118)"
+}
+Pine {
+  translation 13.44 7.23 0
+  name "pine_1(119)"
+}
+Pine {
+  translation 15.96 7.23 0
+  name "pine_1(120)"
+}
+Pine {
+  translation 18.1 7.23 0
+  name "pine_1(121)"
+}
+Pine {
+  translation 18.1 8.81 0
+  name "pine_1(122)"
+}
+Pine {
+  translation 18.1 9.8 0
+  name "pine_1(123)"
+}
+Pine {
+  translation 18.1 11.65 0
+  name "pine_1(124)"
+}
+Pine {
+  translation 14.57 11.65 0
+  name "pine_1(125)"
+}
+Pine {
+  translation 11.67 11.65 0
+  name "pine_1(126)"
+}
+Pine {
+  translation 13.86 1.16 0
+  name "pine_1(127)"
+}
+Pine {
+  translation 16.77 1.16 0
+  name "pine_1(128)"
+}
+Pine {
+  translation 16.77 -1.17 0
+  name "pine_1(129)"
+}
+Pine {
+  translation 13.65 10.01 0
+  name "pine_1(130)"
+}
+Pine {
+  translation 13.65 18.06 0
+  name "pine_1(131)"
+}
+Pine {
+  translation 24.51 6.72 0
+  name "pine_1(132)"
+}
+Pine {
+  translation 24.51 9.35 0
+  name "pine_1(133)"
+}
+Pine {
+  translation 24.51 11.92 0
+  name "pine_1(134)"
+}
+Pine {
+  translation 24.51 13.8 0
+  name "pine_1(135)"
+}
+Pine {
+  translation 24.51 16.77 0
+  name "pine_1(136)"
+}
+Pine {
+  translation 8.03 5.7 0
+  name "pine_1(76)"
+}
+Pine {
+  translation 8.03 7.98 0
+  name "pine_1(77)"
+}
+Pine {
+  translation 8.03 10.63 0
+  name "pine_1(78)"
+}
+Pine {
+  translation 8.03 13.13 0
+  name "pine_1(79)"
+}
+Pine {
+  translation 8.03 15.3 0
+  name "pine_1(80)"
+}
+Pine {
+  translation 8.03 17.56 0
+  name "pine_1(81)"
+}
+Pine {
+  translation 8.03 21.92 0
+  name "pine_1(82)"
+}
+Pine {
+  translation 8.03 19.6 0
+  name "pine_1(83)"
+}
+Pine {
+  translation 5.9 18.51 0
+  name "pine_1(60)"
+}
+Pine {
+  translation -8.11 -20.5 0
+  name "pine_1(1)"
+}
+Oak {
+  translation 9.59 -16.21 0
+  name "oak_1"
+}
+BigSassafras {
+  translation -1.93 -52.29 0
+  name "sassafras_center"
+}
+BigSassafras {
+  translation 8.16 -53.27 0
+  name "sassafras_center(1)"
+}
+Pine {
+  translation -5 -42 0
+  name "pine_gate_L"
+}
+Pine {
+  translation 5 -42 0
+  name "pine_gate_R"
+}
+Oak {
+  translation -1.5 -60 0
+  name "oak_cluster_1"
+}
+Pine {
+  translation -4.5 -65 0
+  name "pine_cluster_2"
+}
+Pine {
+  translation -11.17 -56.68 0
+  name "pine_cluster_2(1)"
+}
+Pine {
+  translation -11.17 -25.49 0
+  name "pine_cluster_2(2)"
+}
+Pine {
+  translation -14.14 -29.32 0
+  name "pine_cluster_2(3)"
+}
+Pine {
+  translation 2.5 -62 0
+  name "pine_cluster_3"
+}
+Oak {
+  translation 5.5 -70 0
+  name "oak_cluster_4"
+}
+BigSassafras {
+  translation -3 -85 0
+  name "wall_L1"
+}
+BigSassafras {
+  translation -6 -85 0
+  name "wall_L2"
+}
+BigSassafras {
+  translation -17.82 -85 0
+  name "wall_L2(1)"
+}
+BigSassafras {
+  translation -17.82 -50.41 0
+  name "wall_L2(2)"
+}
+BigSassafras {
+  translation -15.33 -36.21 0
+  name "wall_L2(3)"
+}
+BigSassafras {
+  translation -24.74 -74.56 0
+  name "wall_L2(4)"
+}
+BigSassafras {
+  translation -14.55 -68.76 0
+  name "wall_L2(5)"
+}
+BigSassafras {
+  translation -10.16 -30.58 0
+  name "wall_L2(6)"
+}
+BigSassafras {
+  translation -6.77 -25.59 0
+  name "wall_L2(12)"
+}
+BigSassafras {
+  translation -3.16 -20.05 0
+  name "wall_L2(13)"
+}
+BigSassafras {
+  translation 0.29 -14.79 0
+  name "wall_L2(14)"
+}
+BigSassafras {
+  translation 4 -10.1 0
+  name "wall_L2(15)"
+}
+BigSassafras {
+  translation 4 -8.87 0
+  name "wall_L2(28)"
+}
+BigSassafras {
+  translation 23.24 -36.12 0
+  name "wall_L2(7)"
+}
+BigSassafras {
+  translation 8.12 -5.79 0
+  name "wall_L2(8)"
+}
+BigSassafras {
+  translation 13.76 -3.44 0
+  name "wall_L2(22)"
+}
+BigSassafras {
+  translation 18.75 -5.79 0
+  name "wall_L2(16)"
+}
+BigSassafras {
+  translation 27.04 -13.64 0
+  name "wall_L2(17)"
+}
+BigSassafras {
+  translation 31.12 -17.81 0
+  name "wall_L2(23)"
+}
+BigSassafras {
+  translation 16.85 -50.08 0
+  name "wall_L2(24)"
+}
+BigSassafras {
+  translation 33.76 -50.08 0
+  name "wall_L2(25)"
+}
+BigSassafras {
+  translation 28.59 -42.05 0
+  name "wall_L2(26)"
+}
+BigSassafras {
+  translation 33.89 -21.81 0
+  name "wall_L2(18)"
+}
+BigSassafras {
+  translation 39.21 -29.49 0
+  name "wall_L2(19)"
+}
+BigSassafras {
+  translation 44.95 -38.04 0
+  name "wall_L2(20)"
+}
+BigSassafras {
+  translation 52.45 -46.52 0
+  name "wall_L2(21)"
+}
+BigSassafras {
+  translation 18.05 -16.83 0
+  name "wall_L2(11)"
+}
+BigSassafras {
+  translation 18.05 -19.84 0
+  name "wall_L2(46)"
+}
+BigSassafras {
+  translation 18.05 -22.88 0
+  name "wall_L2(47)"
+}
+BigSassafras {
+  translation 15.19 -22.88 0
+  name "wall_L2(48)"
+}
+BigSassafras {
+  translation 15.19 -20.7 0
+  name "wall_L2(49)"
+}
+BigSassafras {
+  translation 15.19 -17.3 0
+  name "wall_L2(50)"
+}
+BigSassafras {
+  translation 11.78 -16.66 0
+  name "wall_L2(51)"
+}
+BigSassafras {
+  translation 11.78 -23.31 0
+  name "wall_L2(52)"
+}
+BigSassafras {
+  translation 11.78 -21.29 0
+  name "wall_L2(53)"
+}
+BigSassafras {
+  translation 9.36 -21.29 0
+  name "wall_L2(54)"
+}
+BigSassafras {
+  translation 24.48 -46.82 0
+  name "wall_L2(9)"
+}
+BigSassafras {
+  translation 20.83 -25.9 0
+  name "wall_L2(10)"
+}
+BigSassafras {
+  translation 23.91 -25.9 0
+  name "wall_L2(29)"
+}
+BigSassafras {
+  translation 27.34 -25.9 0
+  name "wall_L2(30)"
+}
+BigSassafras {
+  translation 27.34 -27.44 0
+  name "wall_L2(31)"
+}
+BigSassafras {
+  translation 24.24 -27.44 0
+  name "wall_L2(32)"
+}
+BigSassafras {
+  translation 20.97 -27.44 0
+  name "wall_L2(33)"
+}
+BigSassafras {
+  translation 18.61 -27.44 0
+  name "wall_L2(34)"
+}
+BigSassafras {
+  translation 16.54 -27.44 0
+  name "wall_L2(35)"
+}
+BigSassafras {
+  translation 14.18 -27.44 0
+  name "wall_L2(36)"
+}
+BigSassafras {
+  translation 11.34 -27.44 0
+  name "wall_L2(37)"
+}
+BigSassafras {
+  translation 9.31 -27.44 0
+  name "wall_L2(38)"
+}
+BigSassafras {
+  translation 6.75 -27.44 0
+  name "wall_L2(39)"
+}
+BigSassafras {
+  translation 6.75 -29.74 0
+  name "wall_L2(40)"
+}
+BigSassafras {
+  translation 9.23 -29.74 0
+  name "wall_L2(41)"
+}
+BigSassafras {
+  translation 11.35 -29.74 0
+  name "wall_L2(42)"
+}
+BigSassafras {
+  translation 12.9 -29.74 0
+  name "wall_L2(43)"
+}
+BigSassafras {
+  translation 15.05 -29.74 0
+  name "wall_L2(44)"
+}
+BigSassafras {
+  translation 19.5 -29.74 0
+  name "wall_L2(45)"
+}
+BigSassafras {
+  translation 21.77 -20.78 0
+  name "wall_L2(27)"
+}
+BigSassafras {
+  translation 3 -81.09 0
+  name "wall_world_R1"
+}
+BigSassafras {
+  translation 17.58 -42.85 0
+  name "wall_world_R2"
+}
+BigSassafras {
+  translation 17.58 -33.16 0
+  name "wall_world_R2(1)"
+}
+BigSassafras {
+  translation 13.13 -13.04 0
+  name "wall_world_R2(2)"
+}
+BigSassafras {
+  translation 8.21 -15.75 0
+  name "wall_world_R2(4)"
+}
+BigSassafras {
+  translation 4.67 -13.55 0
+  name "wall_world_R2(5)"
+}
+BigSassafras {
+  translation 0.97 -18.58 0
+  name "wall_world_R2(6)"
+}
+BigSassafras {
+  translation 4.13 -18.58 0
+  name "wall_world_R2(7)"
+}
+BigSassafras {
+  translation -1.69 -23.27 0
+  name "wall_world_R2(8)"
+}
+BigSassafras {
+  translation -1.69 -26.98 0
+  name "wall_world_R2(9)"
+}
+BigSassafras {
+  translation -4.23 -26.98 0
+  name "wall_world_R2(10)"
+}
+BigSassafras {
+  translation -4.23 -30.04 0
+  name "wall_world_R2(11)"
+}
+BigSassafras {
+  translation -5.5 -31.92 0
+  name "wall_world_R2(12)"
+}
+BigSassafras {
+  translation -8.85 -31.92 0
+  name "wall_world_R2(13)"
+}
+BigSassafras {
+  translation -12.04 -31.92 0
+  name "wall_world_R2(14)"
+}
+BigSassafras {
+  translation -12.04 -36.09 0
+  name "wall_world_R2(15)"
+}
+BigSassafras {
+  translation -8.17 -36.09 0
+  name "wall_world_R2(16)"
+}
+BigSassafras {
+  translation -3.82 -36.09 0
+  name "wall_world_R2(17)"
+}
+BigSassafras {
+  translation -0.54 -36.09 0
+  name "wall_world_R2(18)"
+}
+BigSassafras {
+  translation 2.8 -36.09 0
+  name "wall_world_R2(19)"
+}
+BigSassafras {
+  translation 7.58 -36.09 0
+  name "wall_world_R2(20)"
+}
+BigSassafras {
+  translation 11.98 -36.09 0
+  name "wall_world_R2(21)"
+}
+BigSassafras {
+  translation 15.06 -30.18 0
+  name "wall_world_R2(22)"
+}
+BigSassafras {
+  translation 0.66 -30.18 0
+  name "wall_world_R2(24)"
+}
+BigSassafras {
+  translation 15.06 -36.09 0
+  name "wall_world_R2(23)"
+}
+BigSassafras {
+  translation 8.56 -10.1 0
+  name "wall_world_R2(3)"
+}
+Oak {
+  translation 0 -120 0
+  name "final_boss_tree"
+}

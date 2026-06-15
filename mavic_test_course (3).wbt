@@ -1,0 +1,281 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/dji/mavic/protos/Mavic2Pro.proto"
+
+WorldInfo {
+  title "Mavic Simple Test"
+  basicTimeStep 8
+  defaultDamping Damping {
+    linear 0.5
+    angular 0.5
+  }
+}
+Viewpoint {
+  orientation -0.5900210869872645 0.5626402027024425 0.5790605488317445 2.1325539665134174
+  position -11.432913950236136 20.659727828634814 75.63038276729682
+}
+TexturedBackground {
+  texture "noon_cloudy_countryside"
+}
+TexturedBackgroundLight {
+  texture "noon_cloudy_countryside"
+}
+Solid {
+  translation 0 10 0
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColorMap ImageTexture {
+          url [
+            "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/default/worlds/textures/parquetry.jpg"
+          ]
+        }
+        roughness 1
+        metalness 0
+        textureTransform TextureTransform {
+          scale 10 10
+        }
+      }
+      geometry Box {
+        size 40 60 0.02
+      }
+    }
+  ]
+  name "floor"
+  boundingObject Box {
+    size 40 60 0.02
+  }
+  locked TRUE
+}
+Mavic2Pro {
+  translation 0 -10 0.1
+  rotation 0 0 1 1.5708
+  controller "mavic_controller"
+  cameraSlot [
+    Camera {
+      width 400
+      height 240
+      near 0.2
+      far 100
+    }
+  ]
+}
+Solid {
+  translation -8.75 5 1
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.6 0.3 0.2
+        roughness 0.9
+        metalness 0
+      }
+      geometry Box {
+        size 12.5 0.5 2
+      }
+    }
+  ]
+  name "wall_left"
+  boundingObject Box {
+    size 12.5 0.5 2
+  }
+  locked TRUE
+}
+Solid {
+  translation 8.75 5 1
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.6 0.3 0.2
+        roughness 0.9
+        metalness 0
+      }
+      geometry Box {
+        size 12.5 0.5 2
+      }
+    }
+  ]
+  name "wall_right"
+  boundingObject Box {
+    size 12.5 0.5 2
+  }
+  locked TRUE
+}
+Solid {
+  translation -10 14.02 1
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.4 0.6
+        roughness 0.9
+        metalness 0
+      }
+      geometry Box {
+        size 10 0.5 2
+      }
+    }
+  ]
+  name "wall2_left"
+  boundingObject Box {
+    size 10 0.5 2
+  }
+}
+Solid {
+  translation 7.5 14.15 1
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.4 0.6
+        roughness 0.9
+        metalness 0
+      }
+      geometry Box {
+        size 15 0.5 2
+      }
+    }
+  ]
+  name "wall2_right"
+  boundingObject Box {
+    size 15 0.5 2
+  }
+}
+Solid {
+  translation -7.5 25 1
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.6 0.3
+        roughness 0.9
+        metalness 0
+      }
+      geometry Box {
+        size 15 0.5 2
+      }
+    }
+  ]
+  name "wall3_left"
+  boundingObject Box {
+    size 15 0.5 2
+  }
+}
+Solid {
+  translation -15.05 10.03 1
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.6 0.3
+        roughness 0.9
+        metalness 0
+      }
+      geometry Box {
+        size 10 0.4 2
+      }
+    }
+  ]
+  name "wall3_left(1)"
+  boundingObject Box {
+    size 15 0.5 2
+  }
+}
+Solid {
+  translation -15.24 20.19 1
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.6 0.3
+        roughness 0.9
+        metalness 0
+      }
+      geometry Box {
+        size 10 0.4 2
+      }
+    }
+  ]
+  name "wall3_left(2)"
+  boundingObject Box {
+    size 15 0.5 2
+  }
+}
+Solid {
+  translation 15.15 20.38 1
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.6 0.3
+        roughness 0.9
+        metalness 0
+      }
+      geometry Box {
+        size 10 0.4 2
+      }
+    }
+  ]
+  name "wall3_left(3)"
+  boundingObject Box {
+    size 15 0.5 2
+  }
+}
+Solid {
+  translation 15.07 10.38 1
+  rotation 0 0 1 -1.5707953071795862
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.6 0.3
+        roughness 0.9
+        metalness 0
+      }
+      geometry Box {
+        size 10 0.4 2
+      }
+    }
+  ]
+  name "wall3_left(4)"
+  boundingObject Box {
+    size 15 0.5 2
+  }
+}
+Solid {
+  translation 10 25 1
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.2 0.6 0.3
+        roughness 0.9
+        metalness 0
+      }
+      geometry Box {
+        size 10 0.5 2
+      }
+    }
+  ]
+  name "wall3_right"
+  boundingObject Box {
+    size 10 0.5 2
+  }
+  locked TRUE
+}
+Solid {
+  translation 0 35 0.5
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.1 0.9 0.2
+        roughness 0.5
+        metalness 0
+      }
+      geometry Box {
+        size 8 0.2 1
+      }
+    }
+  ]
+  name "finish"
+  boundingObject Box {
+    size 8 0.2 1
+  }
+  locked TRUE
+}
