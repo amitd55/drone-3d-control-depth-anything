@@ -1,0 +1,5 @@
+[20260615_145404] | Run Type: WITH_CANNY    | Danger: 55.1% | Depth Image: depth_danger_20260615_145404.png | Canny Image: canny_danger_20260615_145404.png
+[20260615_145420] | Run Type: WITH_CANNY    | Danger: 55.1% | Depth Image: depth_danger_20260615_145420.png | Canny Image: canny_danger_20260615_145420.png
+[20260615_145433] | Run Type: WITH_CANNY    | Danger: 55.0% | Depth Image: depth_danger_20260615_145433.png | Canny Image: canny_danger_20260615_145433.png
+[20260615_145513] | Run Type: WITH_CANNY    | Danger: 56.7% | Depth Image: depth_danger_20260615_145513.png | Canny Image: canny_danger_20260615_145513.png
+[20260615_145538] | Run Type: WITH_CANNY    | Danger: 55.2% | Depth Image: depth_danger_20260615_145538.png | Canny Image: canny_danger_20260615_145538.png
